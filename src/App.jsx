@@ -5,7 +5,7 @@ export default function App() {
 	return (
 		<Router>
 			<Routes>
-				<Route path="/" Component={Home}/>
+				<Route path="/projects/" Component={Home}/>
 			</Routes>
 		</Router>
 	)
