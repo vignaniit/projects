@@ -41,7 +41,7 @@ jobs:
 
       # build the vite site
       - name: build with vite
-        run: npm build
+        run: npm run build
 
       # upload the build artifact
       - name: upload artifact
